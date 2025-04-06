@@ -1,0 +1,29 @@
+# Handwritten Digit Recognition
+A Convolutional Neural Network (CNN) model designed to recognize handwritten digits with high accuracy.
+
+## Project Overview
+This project uses a CNN architecture to classify handwritten digits from the MNIST dataset. The model achieves an accuracy of **99%**.
+
+## Features
+- **High Accuracy:** The model is trained to achieve a high accuracy rate.
+- **CNN Architecture:** Utilizes convolutional and pooling layers for feature extraction.
+- **Easy Deployment:** Can be easily integrated into applications requiring handwritten digit recognition.
+
+## Requirements
+- Python 3.x
+- TensorFlow
+- Keras
+- NumPy
+- Pandas
+
+## Usage
+1. Clone the repository.
+2. Install required packages using `pip install -r requirements.txt`.
+3. Run the model using `python train_model.py`.
+
+## Accuracy
+The model achieves an accuracy of **99%** on the validation set.
+
+## Future Improvements
+- Enhance model robustness with more diverse datasets.
+- Explore transfer learning techniques.
